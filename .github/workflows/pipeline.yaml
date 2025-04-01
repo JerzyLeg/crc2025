@@ -12,7 +12,7 @@ jobs:
       - run: sudo apt install python3.12
       - run: echo "this should install python in version that is needed for our app"
       # figure out how to install requirements for our project
-      - run: pip install -r requirements.txt
+      - run: python-m pip install -r requirements.txt
       - run: echo "this should install all needed packages on runner"
       # figure out how to run tests to see if the server works
       - run: pytest test_main.py
