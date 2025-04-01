@@ -9,7 +9,7 @@ jobs:
       - run: git clone https://github.com/JerzyLeg/crc2025.git
       - run: echo "this should clone repo"
       # figure out how to install python in required version
-      - run: apt install python3.12
+      - run: sudo apt install python3.12
       - run: echo "this should install python in version that is needed for our app"
       # figure out how to install requirements for our project
       - run: pip install -r requirements.txt
